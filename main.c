@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
 
     char hash_output[65];
     hash_directory(argv[1], hash_output);
-    printf("Hash of directory %s: %s\n", argv[1], hash_output);
+    printf("%s\n", hash_output);
 
     return EXIT_SUCCESS;
 }
